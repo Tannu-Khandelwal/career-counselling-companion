@@ -1,0 +1,29 @@
+<html>
+<head>
+  
+</head>
+<body>
+ <h1> Career counselling Companion </h1>
+<p>Career counselling Companion It is an AI-powered career counseling assistant that analyzes student profiles, recommends suitable career paths, identifies skill gaps, and generates personalized learning roadmaps. </p> 
+<script>
+  window.wxOConfiguration = {
+    orchestrationID: "e45d16d84d07474194c6e011a694f3f7_f238a147-2e1a-4f10-94d7-8fe850cba18a",
+    hostURL: "https://au-syd.watson-orchestrate.cloud.ibm.com",
+    rootElementID: "root",
+    deploymentPlatform: "ibmcloud",
+    crn: "crn:v1:bluemix:public:watsonx-orchestrate:au-syd:a/e45d16d84d07474194c6e011a694f3f7:f238a147-2e1a-4f10-94d7-8fe850cba18a::",
+    chatOptions: {
+        agentId: "7f6cf7cb-e397-43e7-9059-4be2dc451357", 
+    }
+  };
+  setTimeout(function () {
+    const script = document.createElement('script');
+    script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+    script.addEventListener('load', function () {
+        wxoLoader.init();
+    });
+    document.head.appendChild(script);
+  }, 0);                     
+</script>
+</body>
+</html>
