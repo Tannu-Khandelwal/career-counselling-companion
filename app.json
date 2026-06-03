@@ -1,0 +1,20 @@
+{
+  "name": "Career Counseling Companion",
+  "description": "AI-Powered Agentic Career Guidance System built using IBM watsonx Orchestrate and IBM watsonx.ai",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "technologies": [
+    "IBM watsonx Orchestrate",
+    "IBM watsonx.ai",
+    "IBM Granite Models",
+    "IBM Cloud Lite",
+    "Agentic AI"
+  ],
+  "features": [
+    "Career Recommendations",
+    "Skill Gap Analysis",
+    "Learning Roadmap Generation",
+    "Career Readiness Assessment",
+    "Certification Suggestions"
+  ]
+}
